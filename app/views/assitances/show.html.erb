@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Assitance present:</strong>
+  <%= @assitance.assitance_present %>
+</p>
+
+<p>
+  <strong>Student:</strong>
+  <%= @assitance.student %>
+</p>
+
+<%= link_to 'Edit', edit_assitance_path(@assitance) %> |
+<%= link_to 'Back', assitances_path %>
